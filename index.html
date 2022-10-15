@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Music</title>
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+        <h1 class="heading">Music Player</h1>
+        <!-- player parent div -->
+        <div class="palyer-div">
+            <div class="top-div">
+                <img src="resources/disk.png" alt="" class="disk-icon">
+                 <!-- song  and artist details -->
+                <div class="details-div">
+                    <h3 class="song-name">Song Name </h3>
+                    <h4 class="singer">Artist</h4>
+                </div>
+            </div>
+            <div class="bottom-div">
+                <!-- sleek controllos -->
+                <div class="sleek-container">
+                    <div class="current-time">00:00</div>
+                    <input type="range" min="1" max="100" class="sleek-slider" onchange="seekBar()">
+                    <div class="total-duration">00:00</div>
+                </div>
+                <!-- controlls -->
+                <div class="controller">
+                    <img src="resources/icons8-forward-32.png" alt="" class="backword-icon" onclick="backword()">
+                    <img src="resources/icons8-play-button-circled.gif" alt="" class="play-btn" onclick="playSong()">
+                    <img src="resources/icons8-forward-32.png" alt="" class="forword-icon" onclick="forword()">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

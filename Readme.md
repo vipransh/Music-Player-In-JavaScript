@@ -9,7 +9,7 @@ It was an amazing experience to learn about  Dom(Document Object Model) manipula
 
 
 
-[Live-Link]()
+[Live-Link](https://playmusic-with-js.netlify.app/)
 
-![image](Screenshot.png)
+![image](resources/Screenshot.png) 
 
